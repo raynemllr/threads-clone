@@ -1,4 +1,4 @@
-import mongoose, { model, models, Schema } from 'mongoose';
+import { model, models, Schema } from 'mongoose';
 
 const threadSchema = new Schema({
   text: { type: String, required: true },
